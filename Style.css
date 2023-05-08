@@ -7,6 +7,11 @@ h2{ font-size: 2.7em;}
 h3{font-size: 2em;}
 p{font-size: 1.25em;}
 
+.Color-palabra{
+  color:rgba(5, 212, 5, 0.767);
+}
+
+.Color-palabra 
 
 body{
 margin: 0;
@@ -33,63 +38,128 @@ background-color: rgba(11, 212, 11, 0.973);
   margin: auto;
 }
 
+
 .logo{
-  margin: auto;
+  margin: 0;
   padding: 25px 30px;
   text-align: center;
-  background-color: rgb(235, 235, 235);
-
+  color:white;
+  font-size: 150px;
+  background-color: black;
+}
+.logo.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
-nav{
+
+.container-fluid{
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   text-align: center;
-  padding-bottom: 25px;
+  font-size: larger;
+  padding: auto;
+  
 }
-
-#hero{
+#Intro{
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 85vh;
+  padding: 100px 15px;
+  height: 100vh;
   color: white;
-
+  background-image: linear-gradient( to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(images/footbalANALISYS\ LOGOn.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 
 }
 
-
-#Weoffer.container{
+#WeareFootbalAnallisys{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 100px px;
-  background-color: rgb(30, 30, 32);
+  flex-direction: column;
+  padding: 100px 15px;
+  color: black;
+
 }
+#Weoffer.container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#Weoffer{
+  text-align: center;
+  display: flex;
+  padding: 100px 15px;
+  background-color: rgb(30, 30, 32);
+  color:white;
+  }
+  
+.productos{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+ margin: 25px;
+}
+
 #Weoffer p{
+  color: white;
   display: none;
 }
 #Weoffer.carta{
- 
+display: flex;
 }
-.carta:nth-child(1){
-background-image: linear-gradient(0deg,
-rgba(0,0,0,0.5),
-rgba(0,0,0,0.5), 
-),url("images/ojeador-de-futbol.jpg")
+
+.carta:first-child{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(images/ojeador-de-futbol.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 15px;
 
 }
 
 .carta:nth-child(2){
-  background-image: linear-gradient(0deg,
-rgba(0,0,0,0.5),
-rgba(0,0,0,0.5), 
-),url("images/Relegation-1024x715.jpg")
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(images/Halland.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 15px;
 
 }
 
 
-.carta:nth-child(){
-
+.carta:nth-child(3){
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(images/Relegation-1024x715.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 15px;
 }
+
