@@ -1,12 +1,69 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
 
 
+.Color-palabra{
+  color:rgba(5, 212, 5, 0.767);
+}
 
-
+.container{
+  max-width: 1500px;
+  margin: auto;
+}
 .logo{
-    margin: auto;
+    margin: 15px 10px;
     padding: 25px 30px;
     text-align: center;
     color:white;
     font-size: 150px;
     background-color: black;
   }
+
+#DATA{
+  justify-content: center;
+  text-align: center;
+  padding: 50px 15px;
+  color:white;
+  background-color:  rgb(30, 30, 32);;
+}
+#DATA.container{
+  display: flex;
+  align-items:center ;
+  margin: 30px 20px ;
+
+}
+#OurTeam{
+  text-align: center;
+  padding: 50px 15px;
+  background-color: whitesmoke;
+  
+}
+#OurTeam .container{
+  display: flex;
+} 
+
+#Europe5{
+  background-color: rgb(30, 30, 32);
+  color: white;
+  text-align: center;
+}
+
+
+
+#Europe5.container{
+background-color: rgb(30, 30, 32);
+}
+
+
+
+
+@media (min-width: 720px ){
+} .logo{
+  font-size: 180px;
+} 

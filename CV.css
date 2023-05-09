@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+  }
+  
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{font-size: 2em;}
+ p{font-size: 1.25em;}
+  
+  
+.Color-palabra{
+    color:rgba(5, 212, 5, 0.767);
+  }
+  
+.container{
+    max-width: 1500px;
+    margin: auto;
+  }
+  
+  
+  
+.logo{
+      margin: auto;
+      padding: 25px 30px;
+      text-align: center;
+      color:white;
+      font-size: 150px;
+      background-color: black;
+    }
+
+.intro{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px  15px;
+    padding: 25px 30px;
+}
+
+.SUmm{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px  15px;
+    padding: 25px 30px;
+
+}
+
+.edu{
+    text-align: start;
+    font-size: 25px;
+    margin: 30px  15px;
+    padding: 25px 30px;
+}
+
+.exp{
+    text-align: start;
+    font-size: 25px;
+    margin: 30px  15px;
+    padding: 25px 30px;
+}
+
+.skills{
+    text-align: start;
+    font-size: 25px;
+    margin: 30px  15px;
+    padding: 25px 30px;
+}
+
+.achi{
+    text-align: start;
+    font-size: 25px;
+    margin: 30px  15px;
+    padding: 25px 30px;
+}
+
+.referent{
+    text-align: start;
+    font-size: 25px;
+    margin: 30px  15px;
+    padding: 25px 30px;
+}
+
+.img-contaier{
+    background-image: url(images/footbalANALISYS\ LOGOn.png);
+    background-size: cover;
+    align-content: center;
+    background-position: center center;
+    height: 500px;
+    width: 500px;
+
+}

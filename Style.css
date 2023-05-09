@@ -34,17 +34,16 @@ button:hover{
 background-color: rgba(11, 212, 11, 0.973);
 }
 .container{
-  max-width: 1400px;
+  max-width: 1500px;
   margin: auto;
 }
-
 
 .logo{
   margin: 0;
   padding: 25px 30px;
   text-align: center;
   color:white;
-  font-size: 150px;
+  font-size: 35px;
   background-color: black;
 }
 .logo.container{
@@ -71,7 +70,7 @@ background-color: rgba(11, 212, 11, 0.973);
   text-align: center;
   flex-direction: column;
   padding: 100px 15px;
-  height: 100vh;
+  height: 90vh;
   color: white;
   background-image: linear-gradient( to bottom,
     rgba(0, 0, 0, 0.5),
@@ -82,58 +81,60 @@ background-color: rgba(11, 212, 11, 0.973);
   background-position: center center;
 
 }
+#WeareFootbalAnallisys h2{
+  margin: 20px 15px;
+  font-size: 40px;
+}
+
 
 #WeareFootbalAnallisys{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  flex-direction: column;
-  padding: 100px 15px;
+  padding: 80px 15px;
   color: black;
+  background-color:whitesmoke;
 
 }
 #Weoffer.container{
-  display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
 }
+#Weoffer p{
+  display: none;
+}
+
 
 #Weoffer{
   text-align: center;
-  display: flex;
   padding: 100px 15px;
   background-color: rgb(30, 30, 32);
   color:white;
   }
   
+
 .productos{
-  display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: center;
- margin: 25px;
+  margin: 20px;
 }
 
-#Weoffer p{
-  color: white;
-  display: none;
-}
-#Weoffer.carta{
-display: flex;
-}
+
+
+
+
 
 .carta:first-child{
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
-  ), url(images/ojeador-de-futbol.jpg);
+  ), url(images/footbalANALISYS\ LOGOn.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   margin-bottom: 15px;
+  border-radius: 20px;
 
 }
 
@@ -142,11 +143,12 @@ display: flex;
     to bottom,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
-  ), url(images/Halland.webp);
+  ), url(images/footbalANALISYS\ LOGOn.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   margin-bottom: 15px;
+  border-radius: 20px;
 
 }
 
@@ -156,10 +158,62 @@ display: flex;
     to bottom,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
-  ), url(images/Relegation-1024x715.jpg);
+  ), url(images/ojeador-de-futbol.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   margin-bottom: 15px;
+  border-radius: 20px;
+}
+  .Wor{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(30, 30, 32);
+    color: white;
+}  
+.Wor p{
+  text-align: center;
+  margin: auto;
+  padding: 12px;
+
+}  
+@media (min-width: 720px ){
+} .logo{
+  font-size: 180px;
+} 
+
+.container-fluid{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 20px;
+}
+#WeareFootbalAnallisys .container{
+  display: flex;
+
+}
+#WeareFootbalAnallisys .texto{
+  width: 50%;
+  justify-content: center;
+  text-align: initial;
+  padding: 0px 30px;
 }
 
+
+#WeareFootbalAnallisys .img-contaier{
+  background-image: url(images/footbalANALISYS\ LOGOn.png);
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 500px;
+}
+
+.video{
+  justify-content: center;
+
+}
+
+.texto2{
+  justify-content: center;
+
+}
